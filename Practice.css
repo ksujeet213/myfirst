@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+#form{
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border:2px solid ;
+    text-align: left;
+    padding: 50px;
+}
+label{
+    margin-left: 50px;
+}
+#selectstove{
+margin-left: 35px;
+border: none;
+padding: 5px;
+background-color:rgba(255,150,255,0.4);
+border-radius: 2.5px;
+}
+#Qty{
+    margin-left: 20px;
+padding: 5px 0px 5px 5px;
+border: none;
+border-radius: 2.5px;
+}
+#selectTransporter{
+    padding: 5px 0px 5px 5px;
+    border: none;
+    background-color: rgba(255,150,255,0.4);
+border-radius: 2.5px;
+}
+#result{
+    margin-left: 20px;
+    display: inline;
+}
+#click{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#clear{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}

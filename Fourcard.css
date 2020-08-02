@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+header{
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+header h1{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color:hsl(229, 6%, 66%) ;
+}
+header h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color:hsl(234, 12%, 34%) ;
+}
+header p{
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.card{
+    box-shadow:2px 8px 14px 0px hsl(234, 12%, 34%);
+    border-radius: 8px;
+    padding: 25px;
+    margin: 2rem 0;
+    max-width: 300px;
+    height: 104px;
+}
+img{
+    float: right;
+    margin: 10px 10px 0 10px; 
+}
+.aqua{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin: 0;
+}
+.red{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.orange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin: 0;
+}
+@media screen and (min-width: 1200px) {
+    .cards {
+      flex-direction: row;
+    
+    }
+    .col{
+        margin: 20px;
+    }
+    
+  }

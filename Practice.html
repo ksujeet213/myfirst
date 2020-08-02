@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Practice.css">
+<title>Cost Calculation</title>
+    </head>
+<body>
+    <div id="form">
+
+<form id="myform" autocomplete="off">
+    <label>Select Stove</label>
+    <select id="selectstove">
+        <option value="JS">Jumbo Stove</option>
+        <option value="SS">Smart Stove</option>
+        <option value="PS">Prime Stove</option>
+    </select>
+    <br><br>
+    <label>Enter Quantity</label>
+    <input id="Qty" placeholder="Enter Quantity" type="number">
+    <br><br>
+    <label>Select Transporter</label>
+    <select id="selectTransporter">
+        <option value="FedEx">FedEx</option>
+        <option value="TCI Express">TCI Express</option>
+        <option value="Innovative Logistics">Innovative Logistics</option>
+    </select>
+    <br><br>
+    
+    <br>  
+</form>
+<div id="result"></div>
+<br>
+<button onclick="fun()" id="click">Submit</button>
+<button onclick="fun1()" id="clear">Clear</button>
+</div>
+<script src="Practice.js"></script>
+</body>
+    
+</html>
